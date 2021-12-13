@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Беспорядки в Западном Бирюлёво— массовые выступления на межэтнической почве в московском районе Бирюлёво Западное (Южный административный округ), в том числе сопровождавшиеся погромами. Поводом к событиям послужило произошедшее 10 октября 2013 года резонансное убийство местного жителя Егора Щербакова мигрантом-азербайджанцем Орханом Зейналовым.\n\nСчитается, что беспорядки в Бирюлёво стали самыми массовыми в России за последние годы. В ходе их подавления полицией было задержано около 400 человек.",
+    "intro": "Пользовательский веб-граф по событиям в Бирюллево на основе дискуссии в интернете.",
+    "title": "Бирюлево - Россия"
+  },
+  "legend": {
+    "edgeLabel": "Реакция",
+    "colorLabel": "Модульность",
+    "nodeLabel": "Аккаунт"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
